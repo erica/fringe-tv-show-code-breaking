@@ -1,3 +1,20 @@
+BREAKING THE FRINGE CODE
+The producers and writers of Fringe have decided to invite viewers to interact with their program by challenging us to solve a secret code. Near most commercial breaks, they have been displaying a series of images that contain clues to this puzzle.
+
+Producer Pinkner explains here: http://vimeo.com/3495685
+
+This repository contains all the glyph-code data that has aired on the show to date. I'm writing up this puzzle for an Ars post that should go live just before the show returns in April. My write-up is about this puzzle as well as a number of other interactive elements hidden in the show.
+
+So here's your chance to gain fleeting Internet notoriety by solving the code and revealing a clue central to the show's mythology. All the data and notes are set up so you can get started right away.
+
+FILES
+CryptHelper: Some notes on English language frequencies.
+DecryptNotes: Treating the images as an English language cypher.
+Distribution: Frequency count of unique image/yellow dot pairs
+NumberedList: The images numbered in order
+FileList: The image files in the Glyphs folder
+
+
 NOTES ON THE NAMING PATTERN
 * Images are listed by episode and order within the episode.
 * The ABCDEF notes refer roughly to the yellow dot location with respect to the image, namely:
