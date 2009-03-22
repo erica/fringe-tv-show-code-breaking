@@ -1,0 +1,122 @@
+DECRYPTION NOTES:
+* Vigenère seems unlikely -- not enough repeated keys
+* kappa-plaintext looks english-y:
+    http://rumkin.com/tools/cipher/frequency.php
+    Friedman IC: 1.5767 (kappa-plaintext: 0.6064)
+
+
+Conversion from unique picture names into crypto text:
+ABCDEFGHIJKCLCEEALMCNMELLFCIINFAJCNOKPCQDAHFCOEKJCNKDCJBHNGARKDHKQAIHDHK
+
+% sort alpha | uniq -c
+   6 A  .08333
+   2 B  .02777
+  10 C  .13888
+   5 D  .06944
+   5 E  .06944
+   4 F  .05555
+   2 G  .02777
+   6 H  .08333
+   4 I  .05555
+   4 J  .05555
+   7 K  .09722
+   4 L  .05555
+   2 M  .02777
+   5 N  .06944
+   2 O  .02777
+   1 P  .01388
+   2 Q  .02777
+   1 R  .01388
+
+MOST LIKELY MATCHES 
+  10 C  .13888      E
+   7 K  .09722      T
+   6 A  .08333      A/O
+   6 H  .08333      A/O
+   5 D  .06944      N/S/H/R
+   5 E  .06944      N/S/H/R
+   5 N  .06944      N/S/H/R
+   4 I  .05555      D/L
+   4 J  .05555      D/L
+   4 L  .05555      D/L
+   4 F  .05555      D/L
+   2 B  .02777      U/C/M/W/F
+   2 G  .02777      U/C/M/W/F
+   2 M  .02777      U/C/M/W/F
+   2 O  .02777      U/C/M/W/F
+   2 Q  .02777      U/C/M/W/F
+   1 P  .01388      B/V
+   1 R  .01388      B/V
+
+e	t	a	o	i	n	s	h	
+12.7	9.1	8.2	7.5	7.0	6.7	6.3	6.1	
+r	d	l	u	c
+6.0	4.3	4.0	2.8	2.8
+m	w	f	y	g	p	b	v	
+2.4	2.4	2.2	2.0	2.0	1.9	1.5	1.0
+k	x	j	q	z
+0.8	0.2	0.2	0.1	0.1
+
+c : 10
+k : 7
+a : 6
+h : 6
+n : 5
+d : 5
+e : 5
+j : 4
+f : 4
+l : 4
+i : 4
+o : 2
+q : 2
+m : 2
+g : 2
+b : 2
+r : 1
+p : 1
+x : 0
+y : 0
+w : 0
+z : 0
+t : 0
+s : 0
+u : 0
+v : 0
+
+SOLVER TOOLS
+http://scottbryce.com/cryptograms/stats.htm
+http://www.blisstonia.com/software/WebDecrypto/index.php
+http://www.esg.montana.edu/meg/consbio/cryptogram/crypto.html
+
+
+STATS
+
+Recurring Digraphs
+CN	=	3
+FC	=	2
+JC	=	2
+KD	=	2
+DH	=	2
+HK	=	2
+
+Recurring Trigraphs
+JCN	=	2
+DHK	=	2
+
+Double Letters
+EE	=	1
+LL	=	1
+II	=	1
+
+Reversals (ST/TS, RT/TR)
+CD / DC
+HI / IH
+JK / KJ
+CL / LC
+JC / CJ
+DH / HD
+
+ABA Combos
+CLC	=	1
+HDH	=	1

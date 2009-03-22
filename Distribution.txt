@@ -1,0 +1,19 @@
+% sort PicList | uniq -c
+   4 A-LApple
+   6 A-LDaisy
+   2 A-RLeaf
+   5 B-LHand
+  10 C-LApple
+   4 C-LDaisy
+   5 C-LHand
+   6 C-RButterfly
+   2 C-RLeaf
+   4 D-LApple
+   7 D-LLeaf
+   2 E-RSmokeFace
+   1 F-LButterfly
+   5 F-LFrog
+   4 F-LLeaf
+   1 F-RDaisy
+   2 F-RHand
+   2 F-RSeahorse
