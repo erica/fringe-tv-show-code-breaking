@@ -1,9 +1,20 @@
 DECRYPTION NOTES:
 * Vigenère seems unlikely -- not enough repeated keys
 * kappa-plaintext looks english-y:
-    http://rumkin.com/tools/cipher/frequency.php
     Friedman IC: 1.5767 (kappa-plaintext: 0.6064)
 
+    English IC is 1.7
+    German IC is 2.0
+
+    English kappa-plaintext is 0.66
+---
+
+SOLVER TOOLS
+http://scottbryce.com/cryptograms/stats.htm
+http://www.blisstonia.com/software/WebDecrypto/index.php
+http://www.esg.montana.edu/meg/consbio/cryptogram/crypto.html
+
+---
 
 Conversion from unique picture names into crypto text:
 ABCDEFGHIJKCLCEEALMCNMELLFCIINFAJCNOKPCQDAHFCOEKJCNKDCJBHNGARKDHKQAIHDHK
@@ -84,12 +95,6 @@ s : 0
 u : 0
 v : 0
 
-SOLVER TOOLS
-http://scottbryce.com/cryptograms/stats.htm
-http://www.blisstonia.com/software/WebDecrypto/index.php
-http://www.esg.montana.edu/meg/consbio/cryptogram/crypto.html
-
-
 STATS
 
 Recurring Digraphs
@@ -109,14 +114,119 @@ EE	=	1
 LL	=	1
 II	=	1
 
-Reversals (ST/TS, RT/TR)
+Reversals (ST/TS, RT/TR, etc - notably ED/DE and ER/RE)
+Note: Likely R: DEN, Likely D:  IJLF
+Testing with C=E D=R L=D, also C=E, D=R, J=D, H is likely A or O
+
 CD / DC
+CL / LC
+JC / CJ 
+
 HI / IH
 JK / KJ
-CL / LC
-JC / CJ
 DH / HD
 
 ABA Combos
 CLC	=	1
 HDH	=	1
+
+
+-- DECRYPTION ATTEMPTS FOR SPECIFIC WORDS
+
+Double letters do not allow the word PATTERN to be constructed for 2
+LCEEALM <- 2 L's
+FCIINFA <- 2 f's
+
+Third is unlikely, given the results in the rest of the string
+MELLFCI <--
+
+OBSERVER <- ab.ab pattern Not found
+
+ABCDEFGHIJKCLCEEALMCNMELLFCIINFAJCNOKPCQDAHFCOEKJCNKDCJBHNGARKDHKQAIHDHK
+
+WALTERBISHOP
+ABCDEFGHIJKL <- Will not work. Not consecutive
+
+WILLIAMBELL <- no 2 repeats of double characters
+
+MULTIVERSE? <- If C is most likely, none with 2 between e's. E..E
+
+E, I, L
+
+MASSIVE DYNAMIC
+ABCDEFGHIJKC
+LCEEALMCNMELLFCIINFAJCNOKPCQDAHFCOEKJCNKDCJBHNGARKDHKQAIHDHK
+MASSIVE <- cannot work with L
+
+ABCDEFGHIJKCLCEEALMCNMELL
+FCIINFAJCNOKPCQDAHFCOEKJCNKDCJBHNGARKDHKQAIHDHK
+MASSIVE <-- cannot work with F
+
+ABCDEFGHIJKCLCEEALMCN
+MELLFCIINFAJCNOKPCQDAHFCOEKJCNKDCJBHNGARKDHKQAIHDHK
+MASSIVE <- Very unlikely (vsvaa*smv)
+
+CORTEXIPHAN? ABILITY? POTENTIAL?
+---
+
+1   16 P
+17  15 O
+32  10 J
+42  18 Q
+60   7 G
+67
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+12345678901234567890123456
+
+---
+
+Tried swapping out first C and then K for spaces
+AB DEFGHIJK L EEALM NMELLF IINFAJ NOKP QDAHF OEKJ NKD JBHNGARKDHKQAIHDHK
+
+ABCDEFGHIJ CLCEEALMCNMELLFCIINFAJCNO PCQDAHFCOE JCN DCJBHNGAR DH QAIHDH 
+
+---
+Tried looking at symbols in episode clusters
+
+ABCDE
+FGHIJ
+KCLCE
+EALMC
+NMELL
+FCIIN
+etc. FAJCNOKPCQDAHFCOEKJCNKDCJBHNGARKDHKQAIHDHK
+
+---
+
+Layered photoshop images and traced the yellow dot over time
+
+---
+
+Could it be in German, 
+
+e.g. zerstorung durch fortschritte der technologie
+Fails at letter G, which should be "C"
+IC of 2.0 does not match source IC of 1.57.
+
+---
+
+Tried looking at code as morse code: Left/Right and also as major feature pointing to dot or away from dot
+
+---
+
+Exercises in pointlessness
+
+A
+BC
+DEF
+GHIJ
+KCLCE
+EALMCN
+MELLFCI
+INFAJCNO
+KPCQDAHFC
+OEKJCNKDCJ
+BHNGARKDHKQ
+AIHDHK
+

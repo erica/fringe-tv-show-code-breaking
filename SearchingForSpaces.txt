@@ -1,0 +1,106 @@
+     1	S01E01_1-C-RButterfly.jpg
+     2	S01E01_2-A-RLeaf.jpg
+     3	S01E01_3-C-LApple.jpg
+     4	S01E01_4-B-LHand.jpg
+     5	S01E01_5-F-LFrog.jpg
+     6	S01E02_1-A-LApple.jpg
+     7	S01E02_2-C-RLeaf.jpg
+     8	S01E02_3-A-LDaisy.jpg
+     9	S01E02_4-C-LDaisy.jpg
+    10	S01E02_5-D-LApple.jpg
+    11	S01E03_1-D-LLeaf.jpg
+    12	S01E03_2-C-LApple.jpg
+    13	S01E03_3-F-LLeaf.jpg
+    14	S01E03_4-C-LApple.jpg
+    15	S01E03_5-F-LFrog.jpg
+    16	S01E04_1-F-LFrog.jpg
+    17	S01E04_2-C-RButterfly.jpg
+    18	S01E04_3-F-LLeaf.jpg
+    19	S01E04_4-F-RHand.jpg
+    20	S01E04_5-C-LApple.jpg
+    21	S01E05_1-C-LHand.jpg
+    22	S01E05_2-F-RHand.jpg
+    23	S01E05_3-F-LFrog.jpg
+    24	S01E05_4-F-LLeaf.jpg
+    25	S01E05_5-F-LLeaf.jpg
+    26	S01E06_1-A-LApple.jpg
+    27	S01E06_2-C-LApple.jpg
+    28	S01E06_3-C-LDaisy.jpg
+    29	S01E06_4-C-LDaisy.jpg
+    30	S01E06_5-C-LHand.jpg
+    31	S01E07_1-A-LApple.jpg
+    32	S01E07_2-C-RButterfly.jpg
+    33	S01E07_3-D-LApple.jpg
+    34	S01E07_4-C-LApple.jpg
+    35	S01E07_5-C-LHand.jpg
+    36	S01E08_1-E-RSmokeFace.jpg
+    37	S01E08_2-D-LLeaf.jpg
+    38	S01E08_3-F-RDaisy.jpg
+    39	S01E08_4-C-LApple.jpg
+    40	S01E08_5-F-RSeahorse.jpg
+    41	S01E09_1-B-LHand.jpg
+    42	S01E09_2-C-RButterfly.jpg
+    43	S01E09_3-A-LDaisy.jpg
+    44	S01E09_4-A-LApple.jpg
+    45	S01E09_5-C-LApple.jpg
+    46	S01E10_1-E-RSmokeFace.jpg
+    47	S01E10_2-F-LFrog.jpg
+    48	S01E10_3-D-LLeaf.jpg
+    49	S01E10_4-D-LApple.jpg
+    50	S01E10_5-C-LApple.jpg
+    51	S01E11_1-C-LHand.jpg
+    52	S01E11_2-D-LLeaf.jpg
+    53	S01E11_3-B-LHand.jpg
+    54	S01E11_4-C-LApple.jpg
+    55	S01E11_5-D-LApple.jpg
+    56	S01E12_1-A-RLeaf.jpg
+    57	S01E12_2-A-LDaisy.jpg
+    58	S01E12_3-C-LHand.jpg
+    59	S01E12_4-C-RLeaf.jpg
+    60	S01E12_5-C-RButterfly.jpg
+    61	S01E12_6-F-LButterfly.jpg
+    62	S01E13_1-D-LLeaf.jpg
+    63	S01E13_2-B-LHand.jpg
+    64	S01E13_3-A-LDaisy.jpg
+    65	S01E13_4-D-LLeaf.jpg
+    66	S01E13_5-F-RSeahorse.jpg
+    67	S01E14_1-C-RButterfly.jpg
+    68	S01E14_2-C-LDaisy.jpg
+    69	S01E14_3-A-LDaisy.jpg
+    70	S01E14_4-B-LHand.jpg
+    71	S01E14_5-A-LDaisy.jpg
+    72	S01E14_6-D-LLeaf.jpg
+
+APPLE: D is the odd one out
+ 0 RApples 
+18 LApple 3C/6A/10D/12C/14C/20C/26A/27C/31A/33D/34C/39C/44A/45C/49D/50C/54C/55D
+
+Butterfly: LBut/F is the odd one out
+ 1 LButterfly 61
+ 6 RButterfly 1C/17C/32C/42C/60C/67C <- space as 1st char?
+
+Daisy: RDaisy/F is on the opposite side
+ 1 RDaisy 38
+10 LDaisy 8A/9C/28C/29C/43A/57A/64A/68C/69A/71A
+
+Frog: They are all the same
+ 0 RFrog 
+ 5 LFrog 5F/15F/16F/23F/47F <- has a double, unlikely space
+
+Hands: F on the other side odd one out
+ 2 RHands 19F/22F  
+10 LHands 4B/21C/30C/35C/41B/51C/53B/58C/63B/70B
+
+Leafs: 4 positions used Hard to say
+ 4 RLeafs 2C/7C/56A/59C 
+12 Lleafs D11/F13/F18/F24/F25/D37/D48/D52/D62/D65/D72
+
+Seahorse: Not enough data
+ 0 LSeahorses 
+ 2 RSeahorses 40F/66F <- adj to RBut
+
+Smokeface: not enough data
+ 0 LSmokeface 
+ 2 RSmokeface 36E/46E
+
+Could some of the reversals represent spaces or something else?
