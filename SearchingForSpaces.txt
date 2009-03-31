@@ -71,7 +71,7 @@
     71	S01E14_5-A-LDaisy.jpg
     72	S01E14_6-D-LLeaf.jpg
 
-APPLE: D is the odd one out
+APPLE: D is the odd one out spatially
  0 RApples 
 18 LApple 3C/6A/10D/12C/14C/20C/26A/27C/31A/33D/34C/39C/44A/45C/49D/50C/54C/55D
 
@@ -104,3 +104,52 @@ Smokeface: not enough data
  2 RSmokeface 36E/46E
 
 Could some of the reversals represent spaces or something else?
+
+A CDEF HI KCLCEEAL CN ELLFCIINFA CN K C DAHFC EK CNKDC. HN A KDHK AIHDHK
+decrypts to (wait for it, wait for it)
+A OMSW EG COLOSSAL ON SLLWOGGNWA ON C O MAEWO SC ONCMO. EN A CMEC AGEMEC
+
+ABCDEFGHIJKCLCEEALMCNMELLFCIINFAJCNOKPCQDAHFCOEKJCNKDCJBHNGARKDHKQAIHDHK
+A CDEF HI KCLCEEAL CN ELLFCIINFA CN K C DAHFC EK CNKDC. HN A KDHK AIHDHK
+
+No go.
+A BCDEF GHI JKCLCEEAL MCN MELLFCIINFA JCN OK PC QDAHFC OEK JCNKDC J BHN GA RKDHK QAIHDHK
+
+Try with reversals?
+A BCDEF GHI JKCLCEEAL MCN MELLFCIINFA JCN OK PC QDAHFC OEK JCNKDC J BHN GA RKDHK QAIHDHK
+
+-- SPATIAL FLIPPING
+Butterfly: 
+ 1 LButterfly 61F <- flips to C : Code = R, posing as A
+ 6 RButterfly 1C/17C/32C/42C/60C/67C <- space as 1st char? <- flip to F? 1st char?
+
+APPLE: 
+ 0 RApples 
+18 LApple 3C/6A/10D/12C/14C/20C/26A/27C/31A/33D/34C/39C/44A/45C/49D/50C/54C/55D
+
+Daisy: 
+ 1 RDaisy 38F <- flips to C : Code = I, was P
+10 LDaisy 8A/9C/28C/29C/43A/57A/64A/68C/69A/71A
+
+Frog: They are all the same
+ 0 RFrog 
+ 5 LFrog 5F/15F/16F/23F/47F <- has a double, unlikely space
+
+Hands: 
+ 2 RHands 19F/22F  <- flips to C : Code = N, was M
+10 LHands 4B/21C/30C/35C/41B/51C/53B/58C/63B/70B
+   (B would not flip, no E's yet). C's go to F's
+
+Leafs: 
+ 4 RLeafs 2A/7C/56A/59C <- flips to D, F, D, F
+12 Lleafs D11/F13/F18/F24/F25/D37/D48/D52/D62/D65/D72
+For C-Letters: code=K, was B 
+For A-Letters:code=L was G
+
+Seahorse: Not enough data
+ 0 LSeahorses 
+ 2 RSeahorses 40F/66F <- adj to RBut flips to C
+
+Smokeface: not enough data
+ 0 LSmokeface 
+ 2 RSmokeface 36E/46E <- flips to B

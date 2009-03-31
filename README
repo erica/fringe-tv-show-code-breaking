@@ -10,9 +10,15 @@ So here's your chance to gain fleeting Internet notoriety by solving the code an
 FILES
 CryptHelper: Some notes on English language frequencies.
 DecryptNotes: Treating the images as an English language cypher.
+Digraphs: Common English letter pairs
 Distribution: Frequency count of unique image/yellow dot pairs
-NumberedList: The images numbered in order
 FileList: The image files in the Glyphs folder
+NumberedLetters: The base letter set numbered i order
+NumberedList: The images numbered in order
+PicList: The list of pictures, with orientation and dot information
+ReflectNormed: The list of pictures normalized for reflection
+SearchingForSpaces: Attempts to find word dividers
+
 
 
 NOTES ON THE NAMING PATTERN
@@ -26,6 +32,7 @@ NOTES ON THE NAMING PATTERN
 
 FAILED APPROACHES
 * Treating the six yellow dot locations as the source for Braille with one character defined per episode. Tried doing dot inverses and mirroring as well
+* Morse
 * Grouping the dots by image. 
 
 HINTS

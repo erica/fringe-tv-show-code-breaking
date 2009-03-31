@@ -11,6 +11,7 @@ DECRYPTION NOTES:
 
 SOLVER TOOLS
 http://scottbryce.com/cryptograms/stats.htm
+http://rumkin.com/tools/cipher/manipulate.php
 http://www.blisstonia.com/software/WebDecrypto/index.php
 http://www.esg.montana.edu/meg/consbio/cryptogram/crypto.html
 
